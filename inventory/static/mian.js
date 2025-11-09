@@ -723,7 +723,7 @@ $('#logout-btn-settings').on('click', () => {
         // Optional: clear currentUser if used elsewhere
         currentUser = null;
         showToast('Logged out', 'info');
-        window.location.href = 'http://127.0.0.1:5501/index.html'; // add new - redirects to login page
+        window.location.href = '/index.html'; // add new - redirects to login page
     }
 });
 

@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 // alert('Login successful! Redirecting…');
-                window.location.href ="http://127.0.0.1:5501/inventory/templates/employee.html";  
+                window.location.href ="http://127.0.0.1:5500/inventory/templates/employee.html";  
             } else {
                 alert(data.message || 'Login failed');
             }
