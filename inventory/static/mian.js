@@ -673,7 +673,7 @@ function loadAllSettings() {
     const s = JSON.parse(localStorage.getItem('inventoryProSettings')) || {};
 
     // Profile
-    const user = currentUser || { username: 'demo', email: 'demo@inventorypro.com' };
+    const user = currentUser || { username: 'Employee', email: 'Employee@inventorypro.com' };
     $('#profile-username').text(user.username);
     $('#profile-email').text(user.email);
     const pic = localStorage.getItem('profilePic');
@@ -1045,5 +1045,5 @@ $(document).ready(() => {
     // Demo mode – hide login
     $('#login').addClass('hidden');
     $('#logout-btn, #logout-btn-settings').show();
-    currentUser = { username: 'demo', email: 'demo@inventorypro.com' };
+    currentUser = { username: 'Employee', email: 'Employee@inventorypro.com' };
 });
